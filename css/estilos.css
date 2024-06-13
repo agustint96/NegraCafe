@@ -47,8 +47,9 @@ nav.navbar.navbar-expand-lg.bg-light {
 }
 
 .nav-link:hover {
-  letter-spacing: 1.8pt;
-  color: rgb(182, 177, 183);
+  letter-spacing: 1pt;
+  color: rgb(182, 177, 183); 
+  
   
   
   transition: all 0.5s ease-in-out;
@@ -247,7 +248,7 @@ footer .barra-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px 10px 10px 10px;
+  padding: 40px;
   background-image: url(../imagenes/posiblefondo1.png);
   filter: grayscale(1);
   animation-name: animacion-albumes;
@@ -273,7 +274,7 @@ footer .barra-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 10px;
+  padding: 40px;
   background-image: url(../imagenes/posiblefondo1.png);
   filter: grayscale(1);
   animation-name: animacion-albumes;
@@ -319,7 +320,7 @@ footer .barra-footer {
 
   .imagenalbum1{
     animation-name: rotarimagen;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     
@@ -328,7 +329,7 @@ footer .barra-footer {
 
   .imagenalbum2{
     animation-name: rotarimagen;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
     
@@ -350,6 +351,12 @@ footer .barra-footer {
       transform:rotate(0deg); 
       border-radius: 100%;
       opacity: 50%;
+    }
+    45%{
+      transform:rotate(0deg); 
+      border-radius: 100%;
+      opacity: 50%;
+
     }
 
 
@@ -492,10 +499,14 @@ footer .barra-footer {
 
 .contenido-desarrollador h3, p, ul{
   color: white;
-  text-align: justify;
+  text-align:left;
   margin-top: 0px;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.p-banner{
+  text-align:center;
 }
 .contenido-desarrollador .pcentrado{
   text-align: justify;
@@ -518,6 +529,8 @@ footer .barra-footer {
   
   
 }
+
+
 
 
 
